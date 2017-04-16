@@ -91,7 +91,7 @@
   "devDependencies": {
     "@angular/compiler-cli": "2.4.6",
     "@types/hammerjs": "^2.0.33",
-    "@types/jasmine": "^2.2.34",
+    "@types/jasmine": "2.5.45",
     "@types/node": "^7.0.0",
     "@types/selenium-webdriver": "~2.53.39",
     "@types/source-map": "^0.5.0",
@@ -144,6 +144,7 @@
     "tslint-loader": "^3.3.0",
     "typedoc": "^0.5.3",
     "typescript": "~2.2.1",
+    "typings": "^2.1.1",
     "url-loader": "^0.5.7",
     "webpack": "2.3.1",
     "webpack-dev-middleware": "^1.10.0",
