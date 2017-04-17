@@ -14,9 +14,11 @@ describe('Layout', () => {
   //     it('should replace VERSION', inject(function(interpolateFilter) {
   //       expect(interpolateFilter('before %VERSION% after')).toEqual('before TEST_VER after');
   //     }));
+  //     }));
   // });
   it('fails', () => {
-    expect('ABCFD').toBe('ABCDE');
+    let a = 10;
+    expect('ABCFDe').toBe('ABCFDE');
   });
 
   it('creates the class from json', () => {

@@ -34,6 +34,10 @@ module.exports = function (config) {
       { pattern: './src/assets/**/*', watched: false, included: false, served: true, nocache: false }
     ],
 
+    mime: {
+      'text/x-typescript': ['ts','tsx']
+    },
+
     /*
      * By default all assets are served at http://localhost:[PORT]/base/
      */
@@ -67,7 +71,7 @@ module.exports = function (config) {
       noInfo: true,
       // and use stats to turn off verbose output
       stats: {
-        // options i.e. 
+        // options i.e.
         chunks: false
       }
     },
